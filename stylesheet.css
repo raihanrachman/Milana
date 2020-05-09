@@ -1,0 +1,345 @@
+* {
+ margin: 0;
+ font-family: sans-serif;
+}
+
+body {
+ margin: 0;
+}
+
+.flex {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.hero {
+ width: 100%;
+ height: 75vh;
+ background-image: url(images/hero.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.navigation {
+ margin: 0rem 3rem;
+ justify-content: space-between;
+}
+
+.milana,.menu{
+ margin: 20px 10px
+}
+
+.milana {
+ color: #2A75E6;
+ font-size: 1.7rem;
+ font-weight: bold;
+}
+
+.menu a, .menu .btn{
+ margin: 0px 30px;
+ font-size: 1.3rem;
+ opacity: 0.9;
+ font-weight: bold;
+ color: white;
+}
+
+.menu a {
+ text-decoration: none;
+}
+
+.btn {
+ background: #2A75E6;
+ text-decoration: none;
+ border: none;
+ padding:5px 35px;
+}
+
+.box-text {
+ color: white;
+ text-align: center;
+ margin-top: 8rem;
+ font-weight: bold;
+}
+
+.box-text h1{
+  margin: 0 150px;
+}
+
+.orange{
+ background: #E6752A;
+border-radius: 5px;
+border:  #E6752A;
+color: white;
+width: 250px;
+height: 50px;
+margin: 15px 0;
+font-weight: bold;
+font-size: 1.3rem;
+}
+
+.inform-wrapper {
+ width: 100%;
+ background: #2A75E6;
+}
+
+.container {
+ max-width: 1440px;
+ justify-content: center;
+}
+
+.inform {
+ background-color: white;
+ z-index: 1;
+ position: relative;
+ top: -38px;
+ padding: 20px 35px;
+ display: flex;
+ flex-direction: column;
+}
+
+.inform h4 {
+ width: 100%;
+ font-size: 1.6rem;
+}
+
+.inform p {
+ font-size: 1.3rem;
+}
+
+.venue-wrapper {
+ background-color: #2A75E6;
+ padding: 0 20px;
+ height: 310px;
+}
+
+h2 {
+ font-size: 2rem;
+}
+
+.venue-wrapper h2 {
+ text-align: center;
+ color: white;
+}
+.venue-wrapper .container, .partner-wrapper .container{
+ justify-content: space-evenly;
+}
+
+.card {
+ background-color: white;
+ border-radius: 5px;
+ width: 11.5rem;
+ padding-bottom: 10px;
+ margin-top: 20px;
+}
+
+.card img {
+ width: 100% ;
+ border-radius: 5px;
+ height: 130px;
+}
+
+.card figcaption{
+ letter-spacing: 1px;
+ margin: 0 5px;
+}
+
+.card h5 {
+ margin: 0 5px;
+}
+
+.card p {
+ margin: 5px 5px;
+}
+
+.partner-wrapper {
+ margin-top: 25px;
+}
+
+.partner-wrapper h2 {
+ text-align: center;
+ color: rgba(192, 189, 189, 0.767);
+}
+
+.partner {
+ width: 14rem;
+ margin-top: 20px;
+}
+
+.partner img{
+ width: 100%;
+}
+
+.foto-grid {
+ display: grid;
+ grid-template-columns: repeat(12,auto);
+ grid-template-rows: repeat(3, auto);
+ justify-content: center;
+ grid-gap: 10px;
+}
+
+.foto-grid img{
+  width: 100%;
+  height: 100%;
+}
+
+.img-1 {
+ grid-column: 1/4;
+}
+
+.img-2 {
+ grid-column: 4/6;
+}
+
+.img-3 {
+ grid-column: 6/10;
+}
+
+.img-4 {
+ grid-column: 10/13;
+}
+
+.img-5 {
+ grid-column: 1/5;
+ grid-row:2/4;
+}
+
+.img-6 {
+ grid-column: 5/8;
+}
+
+.img-7 {
+ grid-column: 8/11;
+}
+
+.img-8 {
+ grid-column: 11/13;
+}
+
+.img-9 {
+ grid-column: 5/7;
+}
+
+.img-10 {
+ grid-column: 7/10;
+}
+
+.img-11 {
+ grid-column: 10/13;
+}
+
+.form-wrapper {
+ width: 100%;
+ margin-top: 30px;
+}
+
+.register {
+ width:50%;
+ text-align: center;
+ position: relative;
+ background: linear-gradient(rgba(255,255,255, 0.8),rgba(255,255,255, 0.8)), url(images/yunani.jpg);
+}
+
+
+.color-box{
+ position: absolute;
+ width: 100%;
+ height:100%;
+ background-color: rgba(42, 117, 230, 0.7);
+ z-index: 1;
+ opacity: 0.5;
+}
+
+.register img{
+ width:100%;
+ height: 100%;
+ text-align: center;
+}
+
+.register a{
+ text-decoration: none;
+ font-size: 2rem;
+ color: white;
+ font-weight: bold;
+ z-index: 3;
+ height: 0;
+ position: relative;
+ top: -60%;
+}
+
+.user-input {
+ width: 50%;
+ text-align: center;
+}
+
+.user-input h2{
+ color: #2A75E6;
+}
+
+.user-input h3{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: rgba(192, 189, 189, 0.767);
+ }
+
+
+.icon a{
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  margin: 0 15px;
+}
+
+.fab {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+ display:  inline;
+ color: black;
+ font-size: 2rem;
+}
+
+
+.input input{
+ margin: 10px 0px;
+ width: 250px;
+ height: 1.5rem;
+ border-radius: 3px;
+}
+
+::placeholder{
+ font-size: 1.2rem;
+ opacity: 0.8;
+}
+
+.submit {
+ background: #2A75E6;
+ width: 170px;
+ height: 40px;
+ border: none;
+ box-shadow: none;
+ font-size: 1.3rem;
+ color: white;
+ font-weight: bold;
+ border-radius: 100px;
+ margin-top: 10px;
+}
+
+footer {
+ text-align: center;
+ margin-top: 50px;
+ height: 40px;
+ background-color: black;
+ color: white;
+}
+
+h3 {
+ padding: 10px;
+}
+
+.love {
+ width:15px;
+ height:15px;
+}
