@@ -9,7 +9,6 @@ Creating a static webpage that contains HTML generic feature and some css layout
 ## Authors
 
 * raihan(period.)rachman
-
 * Yudi Krisnandi
 
 ## Acknowledgments
